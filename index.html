@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>九洲 8日7夜 大家庭旅遊指南 2026 (🤣張宅・😆陳宅・😘鍾宅)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#2563eb',
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            900: '#1e3a8a',
+                        },
+                        kyushu: {
+                            red: '#e63946',
+                            volcano: '#d90429',
+                            ocean: '#1d3557',
+                            teal: '#457b9d',
+                            cream: '#f1faee',
+                            gold: '#d4af37'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '"Noto Sans TC"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            -webkit-tap-highlight-color: transparent;
+            transition: background-color 0.25s ease, color 0.25s ease;
+        }
+
+        html.dark body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        html.dark .glass-card,
+        html.dark .bg-white {
+            background-color: #1e293b !important;
+            border-color: #334155 !important;
+            color: #f8fafc !important;
+        }
+        html.dark .text-slate-900,
+        html.dark .text-slate-800,
+        html.dark .text-slate-700 {
+            color: #f1f5f9 !important;
+        }
+        html.dark .text-slate-600,
+        html.dark .text-slate-500 {
+            color: #cbd5e1 !important;
+        }
+        html.dark .bg-slate-100 {
+            background-color: #334155 !important;
+            color: #f1f5f9 !important;
+        }
+        html.dark .bg-slate-50 {
+            background-color: #111827 !important;
+        }
+        html.dark .border-slate-200,
+        html.dark .border-slate-100 {
+            border-color: #334155 !important;
+        }
+        html.dark header,
+        html.dark nav {
+            background-color: rgba(15, 23, 42, 0.95) !important;
+            border-color: #334155 !important;
+        }
+
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .custom-shadow {
+            box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.05);
+        }
+        .pb-safe {
+            padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+        }
+        .mb-safe {
+            margin-bottom: max(1.25rem, env(safe-area-inset-bottom));
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-brand-500 selection:text-white pb-24 md:pb-8">
+
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all duration-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 gap-2">
+                <div class="flex items-center gap-2.5 cursor-pointer" onclick="switchView('macro')">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h1 class="font-bold text-base sm:text-lg leading-tight text-slate-900">九洲 8日7夜 大家庭旅遊</h1>
+                            <div class="hidden sm:flex items-center gap-1">
+                                <span class="px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 text-[10px] font-bold border border-amber-200">🤣張宅</span>
+                                <span class="px-1.5 py-0.5 rounded bg-sky-100 text-sky-900 text-[10px] font-bold border border-sky-200">😆陳宅</span>
+                                <span class="px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-900 text-[10px] font-bold border border-emerald-200">😘鍾宅</span>
+                            </div>
+                        </div>
+                        <p class="text-[11px] sm:text-xs text-slate-500 font-medium truncate">2026.08.15 – 08.22 • 更新內容(08142302)</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex bg-slate-100 p-1 rounded-xl text-sm font-semibold border border-slate-200">
+                    <button id="btn-macro" onclick="switchView('macro')" class="px-3.5 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 bg-white text-brand-600 shadow-sm font-bold">
+                        <i class="fa-solid fa-map"></i>
+                        <span>宏觀全景</span>
+                    </button>
+                    <button id="btn-daily" onclick="switchView('daily')" class="px-3.5 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 text-slate-600 hover:text-slate-900">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <span>每日實時</span>
+                    </button>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl bg-slate-100 border border-slate-200/80 shadow-sm shrink-0">
+                        <span class="text-sm sm:text-base">🇯🇵</span>
+                        <div class="flex flex-col leading-tight">
+                            <span class="text-[9px] text-slate-400 font-bold tracking-wider">日本時間 (UTC+9)</span>
+                            <span id="japan-clock" class="font-mono text-xs sm:text-sm font-bold text-brand-600">--:--:--</span>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center gap-2">
+                        <button onclick="openSettingsModal()" class="px-3 py-2 rounded-xl bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200 text-xs font-bold transition flex items-center gap-1.5">
+                            <i class="fa-solid fa-gear"></i>
+                            設定
+                        </button>
+                        <button onclick="openSeatModal()" class="px-3 py-2 rounded-xl bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200 text-xs font-bold transition flex items-center gap-1.5">
+                            <i class="fa-solid fa-ticket"></i>
+                            劃位/票券備忘
+                        </button>
+                        <button onclick="window.print()" class="p-2 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-xl transition" title="列印行程">
+                            <i class="fa-solid fa-print"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="relative overflow-hidden text-white bg-slate-900">
+        <div class="absolute inset-0 bg-cover bg-center z-0 opacity-45 mix-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-kyushu-ocean/85 to-slate-900/90 z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative z-20">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div class="space-y-2">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <div class="inline-flex items-center gap-2 text-xs font-bold bg-amber-400/25 text-amber-200 px-3 py-1 rounded-full border border-amber-300/40">
+                            <!--i class="fa-solid fa-house-chimney text-amber-300"></i-->
+                            <span>🤣 張宅</span> • <span>😆 陳宅</span> • <span>😘 鍾宅</span>
+                        </div>
+                    </div>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight drop-shadow-sm">福岡、大分別府與北九州鐵道之旅</h2>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+                    <div id="live-current-weather-box" class="bg-white/10 backdrop-blur-md px-4 py-3 rounded-2xl border border-white/20 text-white shadow-lg flex items-center gap-3">
+                        <div id="current-weather-icon" class="text-2xl text-amber-300"><i class="fa-solid fa-cloud-sun"></i></div>
+                        <div class="flex flex-col leading-tight">
+                            <span class="text-[10px] text-sky-200 font-bold uppercase tracking-wider">福岡實時氣溫</span>
+                            <div class="flex items-center gap-1.5 mt-0.5">
+                                <span id="current-temp" class="text-base font-extrabold">--°C</span>
+                                <span id="current-desc" class="text-xs text-slate-200">載入中...</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2 sm:gap-4 bg-white/10 backdrop-blur-md p-3.5 rounded-2xl border border-white/20 text-center shadow-lg">
+                        <div class="px-3">
+                            <div class="text-xs text-slate-300 font-medium">總天數</div>
+                            <div class="text-lg font-bold text-amber-300">8 天 7 夜</div>
+                        </div>
+                        <div class="px-3 border-l border-white/15">
+                            <div class="text-xs text-slate-300 font-medium">倒數出發</div>
+                            <div id="countdown-timer" class="text-lg font-bold text-emerald-300">-- 天</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="weather-banner-container" class="mt-5 pt-4 border-t border-white/15">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-xs font-bold text-sky-200 flex items-center gap-1.5 drop-shadow-sm">
+                        <i class="fa-solid fa-cloud-sun text-amber-300"></i> 福岡氣象預報
+                    </span>
+                    <span id="weather-update-status" class="text-[10px] text-slate-300">載入中...</span>
+                </div>
+                <div id="weather-cards-scroll" class="flex gap-2.5 overflow-x-auto hide-scrollbar pb-1">
+                    <div class="text-xs text-slate-300 px-2 py-3">正在連接氣象伺服器取得預報數據...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+        <!-- MACRO VIEW (全景總覽) -->
+        <section id="view-macro" class="space-y-8 animate-fadeIn">
+            <div id="macro-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- Days cards populated by JS -->
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 glass-card p-4 rounded-2xl custom-shadow">
+                <div class="flex items-center gap-2 text-slate-700 font-bold">
+                    <i class="fa-solid fa-route text-brand-500"></i>
+                    <span>8天全景路線軸搜尋</span>
+                </div>
+                <div class="w-full sm:w-auto">
+                    <div class="relative w-full sm:w-72">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                        <input type="text" id="macro-search" oninput="filterMacro()" placeholder="搜尋景點、列車或地點..." class="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-100 border-none text-sm focus:ring-2 focus:ring-brand-500 outline-none">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 border border-slate-200/80 custom-shadow space-y-4">
+                <div class="flex items-center justify-between border-b pb-3 border-slate-100">
+                    <div class="flex items-center gap-2.5">
+                        <div class="w-9 h-9 rounded-xl bg-brand-500/10 text-brand-600 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-people-group text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-base">大家庭同行成員名冊</h3>
+                            <!--p class="text-xs text-slate-500">張宅、陳宅、鍾宅同行 (對應 JR 特急車票劃位)</p-->
+                        </div>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-xs font-bold border border-brand-200">
+                        共 11 人
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="p-4 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50/40 border border-amber-200/80 space-y-2.5">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-lg bg-amber-500 text-white text-xs font-extrabold shadow-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-house"></i> 🤣張宅
+                            </span>
+                            <span class="text-xs font-bold text-amber-800">4 位成員</span>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-1">
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-amber-200/80 text-xs font-bold text-slate-800 shadow-2xs">John</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-amber-200/80 text-xs font-bold text-slate-800 shadow-2xs">Connie</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-amber-200/80 text-xs font-bold text-slate-800 shadow-2xs">朗朗</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-amber-200/80 text-xs font-bold text-slate-800 shadow-2xs">悅晴</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-gradient-to-br from-sky-50 to-blue-50/40 border border-sky-200/80 space-y-2.5">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-lg bg-sky-600 text-white text-xs font-extrabold shadow-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-house"></i> 😆陳宅
+                            </span>
+                            <span class="text-xs font-bold text-sky-800">3 位成員</span>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-1">
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-sky-200/80 text-xs font-bold text-slate-800 shadow-2xs">阿明</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-sky-200/80 text-xs font-bold text-slate-800 shadow-2xs">Step</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-sky-200/80 text-xs font-bold text-slate-800 shadow-2xs">臨臨</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50/40 border border-emerald-200/80 space-y-2.5">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-lg bg-emerald-600 text-white text-xs font-extrabold shadow-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-house"></i> 😘鍾宅
+                            </span>
+                            <span class="text-xs font-bold text-emerald-800">4 位成員</span>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-1">
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-emerald-200/80 text-xs font-bold text-slate-800 shadow-2xs">蛇長</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-emerald-200/80 text-xs font-bold text-slate-800 shadow-2xs">Leoon</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-emerald-200/80 text-xs font-bold text-slate-800 shadow-2xs">婆婆</span>
+                            <span class="px-3 py-1.5 rounded-xl bg-white/90 border border-emerald-200/80 text-xs font-bold text-slate-800 shadow-2xs">正豫</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl p-5 border border-slate-200/80 custom-shadow space-y-3">
+                    <div class="flex items-center gap-2 text-sky-600 font-bold border-b pb-2 border-slate-100">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>來回航班資訊 (HK Express)</span>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="bg-sky-50 p-3 rounded-xl flex justify-between items-center border border-sky-100">
+                            <div>
+                                <div class="font-bold text-sky-900">去程 UO600</div>
+                                <div class="text-xs text-sky-700">08/15 (六) 07:35 → 12:00</div>
+                            </div>
+                            <span class="text-xs font-bold bg-sky-200 text-sky-800 px-2.5 py-1 rounded-full">HKG ➔ FUK</span>
+                        </div>
+                        <div class="bg-sky-50 p-3 rounded-xl flex justify-between items-center border border-sky-100">
+                            <div>
+                                <div class="font-bold text-sky-900">回程 UO639</div>
+                                <div class="text-xs text-sky-700">08/22 (六) 18:00 → 20:40</div>
+                            </div>
+                            <span class="text-xs font-bold bg-sky-200 text-sky-800 px-2.5 py-1 rounded-full">FUK ➔ HKG</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 border border-slate-200/80 custom-shadow space-y-3">
+                    <div class="flex items-center gap-2 text-amber-600 font-bold border-b pb-2 border-slate-100">
+                        <i class="fa-solid fa-train text-amber-500"></i>
+                        <span>預約列車劃位資訊</span>
+                    </div>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-3 bg-amber-50/80 rounded-xl border border-amber-200/60">
+                            <div class="font-bold text-amber-900 flex justify-between">
+                                <span>JR 音速號 Sonic 11</span>
+                                <span>08/16 (日) 09:21</span>
+                            </div>
+                            <div class="text-slate-600 mt-1">博多 ➔ 別府 (車廂 3)</div>
+                            <div class="mt-1 flex flex-wrap gap-1 font-mono font-bold text-amber-800">
+                                <span class="bg-amber-200/70 px-1.5 py-0.5 rounded">7A,7B</span>
+                                <span class="bg-amber-200/70 px-1.5 py-0.5 rounded">8A,8B</span>
+                                <span class="bg-amber-200/70 px-1.5 py-0.5 rounded">9A,9B</span>
+                                <span class="bg-amber-200/70 px-1.5 py-0.5 rounded">10A,10B</span>
+                                <span class="bg-amber-200/70 px-1.5 py-0.5 rounded">11A,11B</span>
+                                <span class="bg-amber-200/70 px-1.5 py-0.5 rounded">12A</span>
+                            </div>
+                        </div>
+                        <div class="p-3 bg-emerald-50/80 rounded-xl border border-emerald-200/60">
+                            <div class="font-bold text-emerald-900 flex justify-between">
+                                <span>由布院之森 4號</span>
+                                <span>08/18 (二) 15:56</span>
+                            </div>
+                            <div class="text-slate-600 mt-1">由布院 ➔ 博多 (車廂 4)</div>
+                            <div class="mt-1 flex flex-wrap gap-1 font-mono font-bold text-emerald-800">
+                                <span class="bg-emerald-200/70 px-1.5 py-0.5 rounded">2A,2B</span>
+                                <span class="bg-emerald-200/70 px-1.5 py-0.5 rounded">3A,3B</span>
+                                <span class="bg-emerald-200/70 px-1.5 py-0.5 rounded">4A,4B</span>
+                                <span class="bg-emerald-200/70 px-1.5 py-0.5 rounded">5A,5B</span>
+                                <span class="bg-emerald-200/70 px-1.5 py-0.5 rounded">6A,6B</span>
+                                <span class="bg-emerald-200/70 px-1.5 py-0.5 rounded">7A</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 border border-slate-200/80 custom-shadow space-y-3">
+                    <div class="flex items-center gap-2 text-rose-600 font-bold border-b pb-2 border-slate-100">
+                        <i class="fa-solid fa-hotel"></i>
+                        <span>主要住宿安排</span>
+                    </div>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-3 bg-rose-50/80 rounded-xl border border-rose-100">
+                            <div class="font-bold text-rose-900">中洲川端東方快捷酒店</div>
+                            <div class="text-slate-600 mt-1">入住日期: 8/15, 8/18 → 8/21 (共4晚)</div>
+                            <div class="text-slate-500 text-[11px] mt-0.5">
+                                <a href="https://maps.app.goo.gl/sHZMtpve3i29PJBY6" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+<i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> 位置
+</a>
+                            </div>
+                        </div>
+                        <div class="p-3 bg-indigo-50/80 rounded-xl border border-indigo-100">
+                            <div class="font-bold text-indigo-900">AMANEK別府YULA-RE</div>
+                            <div class="text-slate-600 mt-1">入住日期: 8/16 → 8/17 (共1晚)</div>
+                            <div class="text-slate-500 text-[11px] mt-0.5">
+                                <a href="https://maps.app.goo.gl/oVDikac3qDHWxrRC8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+<i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> 位置
+</a>
+                            </div>
+                        </div>
+                        <div class="p-3 bg-zinc-50/80 rounded-xl border border-indigo-100">
+                            <div class="font-bold text-indigo-900">8A1(やえいち）😘鍾宅</div>
+                            <div class="text-slate-600 mt-1">入住日期: 8/17 → 8/18 (共1晚)</div>
+                            <div class="text-slate-500 text-[11px] mt-0.5">
+                                <a href="https://maps.app.goo.gl/RpmTidBnWGrgZP3S6" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+<i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> 位置
+</a>
+                            </div>
+                        </div>
+                        <div class="p-3 bg-zinc-50/80 rounded-xl border border-indigo-100">
+                            <div class="font-bold text-indigo-900">湯布院 椿 🤣張宅😆陳宅・</div>
+                            <div class="text-slate-600 mt-1">入住日期: 8/17 → 8/18 (共1晚)</div>
+                            <div class="text-slate-500 text-[11px] mt-0.5" >
+                                <a href="https://maps.app.goo.gl/aETK7tGfWJPwrJDAA" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+<i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> 位置
+</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DAILY DETAILED VIEW (每日詳細) -->
+        <section id="view-daily" class="hidden space-y-6">
+            <div class="glass-card p-1.5 rounded-2xl custom-shadow overflow-x-auto hide-scrollbar flex gap-2 snap-x snap-mandatory scroll-smooth" id="daily-day-tabs">
+                <!-- Day tab buttons injected by JS -->
+            </div>
+
+            <div id="day-header-card" class="bg-gradient-to-r from-brand-600 to-kyushu-ocean text-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 custom-shadow relative overflow-hidden">
+                <!-- JS Populates Header info -->
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-3 bg-white p-3.5 rounded-2xl border border-slate-200 custom-shadow">
+                <div class="flex items-center gap-1.5 overflow-x-auto hide-scrollbar text-xs font-semibold" id="category-filters">
+                    <button onclick="setCategoryFilter('all')" class="cat-filter-btn active px-3 py-1.5 rounded-lg bg-brand-500 text-white transition">全部</button>
+                    <button onclick="setCategoryFilter('flight')" class="cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition">✈️ 航班</button>
+                    <button onclick="setCategoryFilter('train')" class="cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition">🚆 鐵道JR</button>
+                    <button onclick="setCategoryFilter('bus')" class="cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition">🚌 巴士/接駁</button>
+                    <button onclick="setCategoryFilter('spot')" class="cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition">📍 景點/購物</button>
+                    <button onclick="setCategoryFilter('hotel')" class="cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition">🏨 酒店飯店</button>
+                    <button onclick="setCategoryFilter('restaurant')" class="cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition">🍽️ 餐廳</button>
+                </div>
+                <div class="text-xs text-slate-500 font-medium">
+                    <i class="fa-solid fa-circle-check text-emerald-500"></i> 可勾選完成項目
+                </div>
+            </div>
+
+            <div id="daily-timeline" class="space-y-4">
+                <!-- Timeline items loaded by JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-slate-200/80 px-3 py-2 flex justify-around items-center shadow-lg pb-safe">
+        <button id="mobile-nav-macro" onclick="switchView('macro')" class="flex flex-col items-center gap-1 px-3 py-1 text-brand-600 transition active:scale-95">
+            <i class="fa-solid fa-map text-lg"></i>
+            <span class="text-[11px] font-bold">總覽</span>
+        </button>
+        <button id="mobile-nav-daily" onclick="switchView('daily')" class="flex flex-col items-center gap-1 px-3 py-1 text-slate-500 hover:text-slate-900 transition active:scale-95">
+            <i class="fa-solid fa-calendar-day text-lg"></i>
+            <span class="text-[11px] font-bold">每日行程</span>
+        </button>
+        <button onclick="openSeatModal()" class="flex flex-col items-center gap-1 px-3 py-1 text-slate-500 hover:text-amber-600 transition active:scale-95">
+            <i class="fa-solid fa-ticket text-lg"></i>
+            <span class="text-[11px] font-bold">票券備忘</span>
+        </button>
+        <button onclick="openSettingsModal()" class="flex flex-col items-center gap-1 px-3 py-1 text-slate-500 hover:text-brand-600 transition active:scale-95">
+            <i class="fa-solid fa-gear text-lg"></i>
+            <span class="text-[11px] font-bold">設定</span>
+        </button>
+    </nav>
+
+    <div id="settings-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-all">
+        <div class="bg-white w-full sm:max-w-md rounded-t-3xl sm:rounded-3xl p-6 space-y-5 custom-shadow animate-scaleUp max-h-[90vh] flex flex-col mb-safe sm:mb-0">
+            <div class="w-12 h-1.5 bg-slate-200 rounded-full mx-auto sm:hidden mb-1"></div>
+
+            <div class="flex items-center justify-between border-b pb-3 border-slate-100">
+                <h3 class="font-bold text-slate-900 text-base sm:text-lg flex items-center gap-2">
+                    <i class="fa-solid fa-sliders text-brand-500"></i> 設定
+                </h3>
+                <button onclick="closeSettingsModal()" class="w-9 h-9 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:text-slate-800 transition">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <div class="space-y-5 overflow-y-auto pr-1 flex-1 text-sm">
+                <div class="space-y-2">
+                    <label class="font-bold text-slate-800 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-half-stroke text-brand-500"></i> 外觀主題
+                    </label>
+                    <div class="grid grid-cols-3 gap-2 bg-slate-100 p-1.5 rounded-2xl border border-slate-200/80">
+                        <button id="theme-btn-auto" onclick="setTheme('auto')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-1">
+                            <i class="fa-solid fa-desktop text-sm"></i>
+                            <span>自動</span>
+                        </button>
+                        <button id="theme-btn-light" onclick="setTheme('light')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-1">
+                            <i class="fa-solid fa-sun text-sm"></i>
+                            <span>淺色</span>
+                        </button>
+                        <button id="theme-btn-dark" onclick="setTheme('dark')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-1">
+                            <i class="fa-solid fa-moon text-sm"></i>
+                            <span>深色</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="font-bold text-slate-800 flex items-center gap-2">
+                        <i class="fa-solid fa-language text-brand-500"></i> Google 字體風格
+                    </label>
+                    <div class="grid grid-cols-2 gap-2 bg-slate-100 p-1.5 rounded-2xl border border-slate-200/80">
+                        <button id="fontfamily-btn-sans" onclick="setFontFamily('sans')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-0.5">
+                            <span class="text-sm font-bold" style="font-family: 'Noto Sans TC', sans-serif;">黑體 (無襯線)</span>
+                            <span class="text-[10px] opacity-70">Noto Sans</span>
+                        </button>
+                        <button id="fontfamily-btn-serif" onclick="setFontFamily('serif')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-0.5">
+                            <span class="text-sm font-bold" style="font-family: 'Noto Serif TC', serif;">明體 (古典)</span>
+                            <span class="text-[10px] opacity-70">Noto Serif</span>
+                        </button>
+                        <button id="fontfamily-btn-round" onclick="setFontFamily('round')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-0.5">
+                            <span class="text-sm font-bold" style="font-family: 'Zen Maru Gothic', sans-serif;">圓體 (親和)</span>
+                            <span class="text-[10px] opacity-70">Zen Maru</span>
+                        </button>
+                        <button id="fontfamily-btn-kai" onclick="setFontFamily('kai')" class="py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-0.5">
+                            <span class="text-sm font-bold" style="font-family: 'LXGW WenKai TC', cursive;">文楷 (手寫)</span>
+                            <span class="text-[10px] opacity-70">LXGW WenKai</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="font-bold text-slate-800 flex items-center gap-2">
+                        <i class="fa-solid fa-font text-brand-500"></i> 字體大小
+                    </label>
+                    <div class="grid grid-cols-4 gap-1.5 bg-slate-100 p-1.5 rounded-2xl border border-slate-200/80 text-xs">
+                        <button id="fontsize-btn-sm" onclick="setFontSize('sm')" class="py-2 rounded-xl font-bold transition text-center">小</button>
+                        <button id="fontsize-btn-base" onclick="setFontSize('base')" class="py-2 rounded-xl font-bold transition text-center">標準</button>
+                        <button id="fontsize-btn-lg" onclick="setFontSize('lg')" class="py-2 rounded-xl font-bold transition text-center">大</button>
+                        <button id="fontsize-btn-xl" onclick="setFontSize('xl')" class="py-2 rounded-xl font-bold transition text-center">特大</button>
+                    </div>
+                </div>
+            </div>
+
+            <button onclick="closeSettingsModal()" class="w-full py-3 rounded-2xl bg-slate-900 text-white font-bold text-sm hover:bg-slate-800 active:scale-98 transition shadow-lg">
+                確定並關閉
+            </button>
+        </div>
+    </div>
+
+    <div id="seat-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-all">
+        <div class="bg-white w-full sm:max-w-lg rounded-t-3xl sm:rounded-3xl p-6 space-y-4 custom-shadow animate-scaleUp max-h-[85vh] flex flex-col mb-safe sm:mb-0">
+            <div class="w-12 h-1.5 bg-slate-200 rounded-full mx-auto sm:hidden mb-1"></div>
+
+            <div class="flex items-center justify-between border-b pb-3">
+                <h3 class="font-bold text-slate-900 text-base sm:text-lg flex items-center gap-2">
+                    <i class="fa-solid fa-ticket text-brand-500"></i> 劃位票券 & 重要資訊備忘
+                </h3>
+                <button onclick="closeSeatModal()" class="w-9 h-9 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:text-slate-800 transition">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <div class="space-y-3 text-sm overflow-y-auto pr-1 flex-1">
+                <div class="p-3.5 bg-amber-50 rounded-2xl border border-amber-200">
+                    <div class="font-bold text-amber-900 text-sm sm:text-base">🚆 JR 特急「音速」Sonic 11號</div>
+                    <p class="text-xs text-amber-700 mt-0.5">8/16 (日) 博多 ➔ 別府 | 09:21 - 11:33</p>
+                    <div class="mt-2 text-xs font-semibold text-slate-700">已劃位座位 (Car 3)：</div>
+                    <p class="font-mono text-amber-900 font-bold text-xs bg-white p-2 rounded-lg mt-1 border border-amber-200 break-words">
+                        Car 3: 7A, 7B, 8A, 8B, 9A, 9B, 10A, 10B, 11A, 11B, 12A
+                    </p>
+                </div>
+
+                <div class="p-3.5 bg-emerald-50 rounded-2xl border border-emerald-200">
+                    <div class="font-bold text-emerald-900 text-sm sm:text-base">🚆 特急「由布院之森」4號</div>
+                    <p class="text-xs text-emerald-700 mt-0.5">8/18 (二) 由布院 ➔ 博多 | 15:56 - 18:10</p>
+                    <div class="mt-2 text-xs font-semibold text-slate-700">已劃位座位 (Car 4)：</div>
+                    <p class="font-mono text-emerald-900 font-bold text-xs bg-white p-2 rounded-lg mt-1 border border-emerald-200 break-words">
+                        Car 4: 2A, 2B, 3A, 3B, 4A, 4B, 5A, 5B, 6A, 6B, 7A
+                    </p>
+                </div>
+
+                <div class="p-3.5 bg-purple-50 rounded-2xl border border-purple-200 space-y-1">
+                    <div class="font-bold text-purple-900 text-xs sm:text-sm">🎫 太宰府＆柳川週遊券換票地點</div>
+                    <p class="text-xs text-purple-800">福岡（天神）站/藥院站，詳細參考Klook</p>
+                    <p class="text-xs text-purple-600">※ 請於Day 6 (8/20) 或出發前領取實體票券與優惠券。</p>
+                </div>
+
+
+                <div class="p-3.5 bg-neutral-50 rounded-2xl border border-neutral-200 space-y-1">
+                    <div class="font-bold text-neutral-900 text-xs sm:text-sm">⚒️ 建議安裝Apps </div>
+                    <p class="text-xs text-neutral-800">
+                        <div class="text-slate-500 text-[11px] mt-0.5">
+                            <a href="https://play.google.com/store/apps/details?id=jp.or.nhk.nhkworld.tv&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> NHK WORLD-JAPAN
+                            </a>
+                        </div>
+                    </p>
+                    <p class="text-xs text-neutral-800">
+                        <div class="text-slate-500 text-[11px] mt-0.5">
+                            <a href="https://play.google.com/store/apps/details?id=jp.co.rcsc.safetyTips.android&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> Safety tips
+                            </a>
+                        </div>
+                    </p>
+                    <p class="text-xs text-neutral-800">
+                        <div class="text-slate-500 text-[11px] mt-0.5">
+                            <a href="https://play.google.com/store/apps/details?id=com.navitime.inbound.walk&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> NAVITIME JAPAN
+                            </a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+            <button onclick="closeSeatModal()" class="w-full py-3 rounded-2xl bg-slate-900 text-white font-bold text-sm hover:bg-slate-800 active:scale-98 transition shadow-lg">
+                關閉
+            </button>
+        </div>
+    </div>
+
+    <div id="toast-notification" class="fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-2xl shadow-xl border border-slate-700 flex items-center gap-3 transition-all duration-300 transform translate-y-20 opacity-0 pointer-events-none">
+        <div id="toast-icon" class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div>
+            <div id="toast-title" class="text-sm font-bold">行程已成功更新</div>
+            <div id="toast-message" class="text-xs text-slate-300">已從 ICS 檔案解析最新的行程資料</div>
+        </div>
+    </div>
+
+    <script>
+        let currentView = 'macro';
+        let selectedDayNum = 1;
+        let activeCategoryFilter = 'all';
+        let currentTheme = localStorage.getItem('kyushu_theme') || 'auto';
+        let currentFontSize = localStorage.getItem('kyushu_fontsize') || 'base';
+        let currentFontFamily = localStorage.getItem('kyushu_fontfamily') || 'sans';
+        let weatherForecastData = {};
+        let weatherRefreshTimer = null;
+
+        const tripData = {
+            title: "九洲8日7夜大家庭旅遊 (🤣張宅・😆陳宅・😘鍾宅)",
+            startDate: "2026-08-15",
+            endDate: "2026-08-22",
+            days: [
+                {
+                    dayNum: 1,
+                    date: "2026-08-15",
+                    weekDay: "星期六",
+                    title: "中洲落腳 & 福岡巡禮",
+                    summary: "抵達福岡、地鐵接駁至酒店 check-in、博多站劃位、太宰府巴士券與周遊券準備及購物",
+                    hotel: "中洲川端東方快捷酒店",
+                    notes: ["在機場買小食當午餐", "換周遊巴士券x2@機場", "全部人西瓜卡增值@機場", "酒店 Check-in", "博多車站換 JR Pass 和劃位票"],
+                    events: [
+                        { time: "07:35 - 12:00", title: "香港去福岡 (航班 UO600)", type: "flight", desc: "HK Express 航班 UO600，香港國際機場 (HKG) 直飛 福岡機場 (FUK)。", location: "Fukuoka Airport", links: [] },
+                        { time: "12:00 - 13:30", title: "機場任務", type: "spot", desc: "✅ 增值🍉西瓜卡\n✅ 買小食\n✅ 換別府巴士券\n✅ 或換JR九州鐵路周遊券", location: "Fukuoka Airport", links: [{ name: "JR九州鐵路周遊券兌換櫃檯", url: "https://www.jrkyushu.co.jp/chinese/guide/station/station_fukuokaairport.html" }] },
+                        { time: "13:30 - 13:45", title: "轉搭機場 Shuttle Bus 往國內線", type: "bus", desc: "國際線航廈抵達後，先至航廈外搭乘免費機場接駁巴士前往國內線航廈（約10-15分鐘）。", links: [{ name: "接駁影片指南", url: "https://youtube.com/shorts/8Ouj2Q-9dv4?si=JOTaGNJrRAVptjan" }] },
+                        { time: "13:45 - 14:00", title: "福岡機場 ➔ 中洲川端 (地鐵)", type: "train", desc: "搭乘地下鐵機場線至「中洲川端站」下車。車程約 9 分鐘。車費：260日圓。", location: "Nakasu-Kawabata Sta.", links: [{ name: "Japan Travel 交通", url: "https://japantravel.go.link/8JWTc" }] },
+                        { time: "14:00 - 14:15", title: "中洲川端車站 ➔ 酒店 Check-in", type: "hotel", desc: "步行前往「中洲川端東方快捷酒店」辦理 Check-in 及放行李。", location: "中洲川端東方快捷酒店", links: [{ name: "Google 地圖路線", url: "https://maps.app.goo.gl/WHmnyRFoxP4Gnrx48" }] },
+                        { time: "14:15 - 18:00", title: "市區探索與票券準備", type: "spot", desc: "川端通商店街、福岡PARCO、博多運河城。\n任務﹕全部人均需出席﹗\n1.博多車站領取 JR Pass(博多車話)\n 2.Jr確認劃位取票(博多車話)\n3.Optional-換太宰府＆柳川週遊券(福岡/藥院站)", location: "博多車站 & 中洲周邊", links: [{ name: "任務清單", url: "https://docs.google.com/document/d/1w0s23G5LjLF93qqNNuFaMO9AMQO8hkv_QPvHKn_9qvU/edit?usp=sharing" }] },
+                        { time: "18:00 - 20:30", title: "晚餐@天神", type: "restaurant", desc: "Tajimaya", links: [{ name: "餐廳地圖", url: "https://maps.app.goo.gl/VGM46xh9Y8rEgPsy9" }] }
+                    ]
+                },
+                {
+                    dayNum: 2,
+                    date: "2026-08-16",
+                    weekDay: "星期日",
+                    title: "別府溫泉地獄巡禮",
+                    summary: "搭乘 Sonic 音速號前往別府，體驗海地獄與血池地獄，晚間崇拜",
+                    hotel: "AMANEK別府YULA-RE",
+                    notes: ["07:00 酒店包早餐", "08:00 Check-out 出發", "放行李至別府 AMANEK 酒店", "預先購買明天的早餐", "20:00 崇拜"],
+                    events: [
+                        { time: "08:30 - 08:50", title: "中洲川端 ➔ 博多站", type: "train", desc: "搭乘地鐵至博多站集合準備搭乘特急列車。\n預早0900前要找到Sonic\n0921 前一定要準時登上開去別府（Beppu）的火車-Sonic 11\n全部人協作睇吓點行﹕博多站 ➝ SONIC 特急的一段行程\n1. 出站後轉 JR\n	◦ 在博多站地鐵閘口出站，跟著站內指示牌走到 JR 博多站中央檢票口。\n	◦ 步行約 5 分鐘。\n2. 進入 JR 區域\n	◦ 出示 JR Pass 或指定席票，進入 JR 檢票口。\n◦ SONIC 特急通常在 8–9 號月台。", location: "博多站", links: [{ name: "地鐵轉車", url: "https://japantravel.go.link/20vm8" }] },
+                        { time: "09:21 - 11:33", title: "博多 ➔ 別府 (JR 特急 Sonic 13號)", type: "train", desc: "搭乘 JR 特急音速號直達別府站。\n座位：\nCar 3 7A, 7B, 8A, 8B, 9B\nCar 3 10A, 10B, 11A, 11B, 12A, 9A。", location: "別府站", links: [{ name: "火車路線", url: "https://maps.app.goo.gl/Ev4B57zN9Eh7guU18" }] },
+                        { time: "11:45 - 12:15", title: "別府 AMANEK 酒店寄放行李", type: "hotel", desc: "前往 AMANEK別府YULA-RE 寄放行李（但未能Check-in）。", location: "AMANEK別府YULA-RE", links: [{ name: "行人路線", url: "https://maps.app.goo.gl/ck7AxfcwYY4rYGZs9" }] },
+                        { time: "14:30 - 15:30", title: "海地獄遊覽", type: "spot", desc: "乘車地點：別府站西口 3 號巴士站。\n搭乘路線：乘搭 2 號、5 號、7 號、9 號或 41 號「鐵輪線」巴士。\n下車車站：在 「海地獄前」 或 「鐵輪」 站下車，下車後步行約 1 至 3 分鐘即可到達。\n車程時間：約 20–25 分鐘。", location: "海地獄", links: [{ name: "別府站西口", url: "https://maps.app.goo.gl/aZNw825rB8dA8qV28" }] },
+                        { time: "15:30 - 16:30", title: "海地獄 ➔ 血池地獄", type: "bus", desc: "巴士搭乘指南（選項 A 路線）\n候車站牌：「海地獄前」巴士站（位在海地獄出口外的馬路邊）\n搭乘路線：16 號 或 16A 號（龜之井巴士／亀の井バス）\n下車站牌：「血の池地獄前」\n乘車時間：約 10～15 分鐘（行經約 12 個站）", location: "血池地獄", links: [{ name: "路線地圖", url: "https://maps.app.goo.gl/KWBZyBcEeNFaiKao9" }] },
+                        { time: "16:30 - 17:10", title: "血池地獄 ➔ 別府站巴士", type: "bus", desc: "乘車地點：出血池地獄後，前往門口的 「血池地獄前」 巴士站。\n搭乘路線：乘搭 26 號或 26A 號（外環循環線）巴士。\n下車車站：直達 「別府站前」（別府站東口/西口）。\n車程時間：約 30–35 分鐘。", location: "別府站", links: [{ name: "路線", url: "https://maps.app.goo.gl/8NJuZNPgp3FeJJnp8" }] },
+                        { time: "17:30 - 17:45", title: "別府 AMANEK 酒店", type: "hotel", desc: "Check-in和安頓。", location: "AMANEK別府YULA-RE", links: [{ name: "酒店", url: "https://maps.app.goo.gl/6smukG1p6JpLZSWo9" }] },
+                        { time: "20:00 - 21:00", title: "主日崇拜", type: "spot", desc: "崇拜時間。", links: [{ name: "內容", url: "https://docs.google.com/document/d/1ufarVzaCYY0GmWTTbiLbReWd1U6gMKmIHORZgtSPYcQ/edit?usp=sharing" }] },
+                    ]
+                },
+                {
+                    dayNum: 3,
+                    date: "2026-08-17",
+                    weekDay: "星期一",
+                    title: "九州自然動物園 & 前往由布院",
+                    summary: "搭專線巴士暢遊九州自然動物園 (African Safari)，下午轉搭觀光巴士抵達由布院",
+                    hotel: "由布院溫泉旅館 (湯布院 椿 / 8A1)",
+                    notes: ["07:15 輕食早餐", "07:30 Check-out & 07:35 行李暫放酒店", "搭乘 YUFURIN 巴士前往由布院"],
+                    events: [
+                        { time: "07:50 - 08:00", title: "酒店 ➔ 別府站西口", type: "bus", desc: "搭乘龜之井巴士 41 號直達終點站。", location: "4 號巴士站", links: [{ name: "行人路線", url: "https://maps.app.goo.gl/Xhe85tvGva5KF7xa6" }] },
+                        { time: "08:50 - 09:38", title: "別府站西口 ➔ 九州自然動物園", type: "bus", desc: "龜之井巴士（直達專線）\n乘車地點：別府站西口 4 號巴士站\n搭乘路線：41 號 巴士（往 サファリ / Safari 方向）\n下車車站：終點站 「サファリ」（Safari / 九州自然動物園）\n車程時間：約 50 分鐘\nNO.41 Bus", location: "九州自然動物園", links: [{ name: "行車路線地圖", url: "https://maps.app.goo.gl/7T16oZsdkSX5v6Za9" }] },
+                        { time: "14:53 - 15:39", title: "九州自然動物園 ➔ 別府", type: "bus", desc: "乘車地點：園區前的「サファリ」（Safari）巴士站\n搭乘路線：龜之井巴士「サファリ線」（往別府站西口方向）\n預計時間：約 47 分鐘（直達無須換乘）\n下車站點：別府站西口", location: "別府", links: [{ name: "行車路線地圖", url: "https://maps.app.goo.gl/mVjgh3zJftaiXzWn6" }] },
+                        { time: "15:39 - 16:30", title: "取行李", type: "hotel", desc: "回酒店取行李", location: "酒店", links: [{ name: "AMANEK BEPPU YULA-RE Beppu Hotel", url: "https://maps.app.goo.gl/2dpyBjFGCjHETZU58" }] },
+                        { time: "16:38 - 17:32", title: "別府站 ➔ 由布院 (YUFURIN 觀光巴士)", type: "bus", desc: "搭乘 YUFURIN 巴士至由布院站前巴士中心，沿途欣賞由布岳風光。", location: "由布院站", links: [] },
+                        { time: "17:32 - 18:00", title: "各自到酒店", type: "hotel", desc: "鍾宅到酒店", location: "酒店", links: [{ name: "8A1(やえいち）", url: "https://maps.app.goo.gl/Ldoc5zyZpvcEohpX7" }] },
+                        { time: "17:32 - 18:30", title: "各自到酒店", type: "hotel", desc: "陳和張宅到酒店", location: "酒店", links: [{ name: "湯布院 椿", url: "https://maps.app.goo.gl/iND77FdgC6WqYLpo6" }] }
+                    ]
+                },
+                {
+                    dayNum: 4,
+                    date: "2026-08-18",
+                    weekDay: "星期二",
+                    title: "由布院慢遊 & 返回博多",
+                    summary: "漫步由布院小鎮、金鱗湖、湯布院花卉村，傍晚搭乘由布院之森列車回博多",
+                    hotel: "中洲川端東方快捷酒店",
+                    notes: ["08:30 Check-out", "09:00 由布院站集合、寄放行李&食早餐", "15:56 搭乘由布院之森 4號"],
+                    events: [
+                        { time: "09:30 - 15:30", title: "由布院小鎮、花卉村 & 金鱗湖漫步", type: "spot", desc: "沿湯之坪街道逛街，造訪湯布院花卉村與金鱗湖，享用午餐與甜點。", location: "湯布院花卉村", links: [] },
+                        { time: "15:56 - 18:10", title: "由布院 ➔ 博多 (由布院之森 4號)（已劃位）", type: "train", desc: "搭乘綠色觀光特急返抵博多。\n座位：\nCar 4 2A, 2B, 3A, 3B, 4B\nCar 4 4A, 5A, 5B, 6A, 6B, 7A。", location: "博多站", links: [{ name: "座位圖", url: "https://drive.google.com/file/d/1VsH0IzfK2nBJxeVVzaeLoeJxL9j9Mbb8/view?usp=sharing" }] },
+                        { time: "18:10 - 19:10", title: "博多 ➔ 中洲川端車站 ➔ 中洲川端東方快捷酒店", type: "hotel", desc: "中洲川端東方快捷", location: "中洲川端東方快捷酒店", links: [{ name: "酒店位置", url: "https://maps.app.goo.gl/1qQWiKdVaqC12Yih8" }] }
+                    ]
+                },
+                {
+                    dayNum: 5,
+                    date: "2026-08-19",
+                    weekDay: "星期三",
+                    title: "小倉 & 門司港懷舊復古一日遊",
+                    summary: "搭乘 JR 前往北九州，漫步門司港懷舊街區、探索 Aruaru City 動漫商場與小倉美饌",
+                    hotel: "中洲川端東方快捷酒店",
+                    notes: ["09:15 早餐", "乘 JR 往門司港", "午餐 @ 門司港 (燒咖哩)"],
+                    events: [
+                        { time: "10:00 - 10:41", title: "博多 ➔ 經小倉 (JR 特急 Sonic13)", type: "train", desc: "搭乘特急 Sonic 自由席前往小倉站\n在博多站搭乘特急 Sonic 號（往大分、佐伯或中津方向）。\n抵達小倉站後，您需要轉乘 JR 鹿兒島本線（往門司港方向的普通列車）。\n從小倉站到門司港站約需 13 至 15 分鐘。", location: "小倉站", links: [{ name: "時刻表", url: "https://japantravel.navitime.com/zh-tw/area/jp/depArrTimeList/00007420/00003716/00000010?direction=up&date=2026-08-19&hour=10&trainType=Sonic&type=" }] },
+                        { time: "11:00 - 14:00", title: "小倉 ➔ 門司港懷舊區漫遊", type: "spot", desc: "參觀門司港車站大樓、舊門司三井俱樂部，品嚐燒咖哩午餐。", location: "門司港車站", links: [] },
+                        { time: "14:00 - 14:15", title: "門司港 ➔ 小倉", type: "train", desc: "搭火車", location: "小倉駅", links: [] },
+                        { time: "14:15 - 19:00", title: "小倉遊", type: "spot", desc: "遊覽和到Aruaru City購物\n晚餐也在小倉", location: "Aruaru City", links: [{ name: "Aruaru City位置", url: "https://maps.app.goo.gl/CJcjYbNkWbcbgQf9A" }] }
+                    ]
+                },
+                {
+                    dayNum: 6,
+                    date: "2026-08-20",
+                    weekDay: "星期四",
+                    title: "自由 Shopping & 藥院站換票",
+                    summary: "大家庭自由購物日，前往 LaLaport 福岡看實體鋼彈，並至藥院站換取太宰府柳川套票",
+                    hotel: "中洲川端東方快捷酒店",
+                    notes: ["自由 Shopping & 採買", "【藥院站】中央檢票口領取太宰府＆柳川週遊券"],
+                    events: [
+                        { time: "全天", title: "LaLaport 福岡與市區購物", type: "spot", desc: "參觀 LaLaport 福岡 (1:1 Nu鋼彈立像) 及各大購物商圈。", location: "LaLaport 福岡", links: [] },
+                        { time: "彈性時間", title: "藥院站領取套票 (重要任務)", type: "spot", desc: "至藥院站中央檢票口領取太宰府＆柳川週遊券實體車票。", location: "藥院站", links: [] }
+                    ]
+                },
+                {
+                    dayNum: 7,
+                    date: "2026-08-21",
+                    weekDay: "星期五",
+                    title: "柳川水鄉划船 & 太宰府天滿宮",
+                    summary: "體驗柳川傳統搖櫓船搭乘、品嚐鰻魚飯，下午前往太宰府天滿宮參道與祈福",
+                    hotel: "中洲川端東方快捷酒店",
+                    notes: ["09:00 早餐", "西鐵天神 ➔ 柳川", "柳川乘船 & 鰻魚飯午餐"],
+                    events: [
+                        { time: "09:45 - 10:00", title: "中洲川端車站 ➔ 天神駅", type: "train", desc: "轉車", location: "天神駅", links: [{ name: "路線", url: "https://maps.app.goo.gl/6mcdC85SKguUB38E6" }] },
+                        { time: "10:00 - 10:15", title: "天神駅 🚶🏽‍➡️ 西鐵福岡（天神）站", type: "train", desc: "行去轉車﹕\n抵達天神後，步行前往連接的「西鐵福岡（天神）站」。憑您的週遊券，搭乘西鐵天神大牟田線的「特急」列車前往「西鐵柳川站」（車程約 50 分鐘）。", location: "西鐵福岡（天神）站", links: [] },
+                        { time: "10:30 - 11:20", title: "西鐵福岡（天神）站 ➔ 西鐵柳川站", type: "train", desc: "搭開10:30的西鐵天神大牟田線特急到大牟田方向，西鐵柳川站落車\n抵達西鐵柳川站後，請前往西鐵柳川站遊船資訊中心。工作人員會為您提供引導。", location: "西鐵福岡（天神）站", links: [{ name: "時刻表", url: "https://japantravel.navitime.com/zh-tw/area/jp/depArrTimeList/00004888/00004887/00000715?direction=down&date=2026-08-21&hour=10&trainType=&type=" }] },
+                        { time: "11:20 - 15:00", title: "柳川觀光搭船 & 蒸鰻魚飯", type: "spot", desc: "體驗約60分鐘柳川搖櫓船，隨後享用百年蒸籠鰻魚飯。", location: "松月乘船場", links: [] },
+                        { time: "15:00 - 15:35", title: "西鐵柳川站 → 西鐵二日市站", type: "train", desc: "從「西鐵柳川站」搭乘西鐵天神大牟田線（往福岡天神方向）的特急或急行列車，在「西鐵二日市站」下車。", location: "西鐵柳川站", links: [{ name: "路線", url: "https://maps.app.goo.gl/wjWUz5X83RVsmc2e7" }] },
+                        { time: "15:35 - 15:50", title: "西鐵二日市站 → 太宰府站", type: "train", desc: "在西鐵二日市站轉乘西鐵太宰府線，前往終點站「太宰府站」。", location: "二日市站", links: [{ name: "路線", url: "https://maps.app.goo.gl/Ru2SqMfsixaC2ZBeA" }] },
+                        { time: "15:50 - 18:00", title: "太宰府天滿宮參觀和吃晚飯🥣", type: "spot", desc: "參觀太宰府天滿宮、隈研吾設計星巴克與品嚐梅枝餅(使用梅枝餅兑換券﹗)。", location: "太宰府天滿宮", links: [{ name: "天滿宮", url: "https://maps.app.goo.gl/mbssLKgc4c1ZSevn6" }] },
+                        { time: "20:30 - 21:30", title: "太宰府站 ➔ 天神駅", type: "train", desc: "第一段（西鐵線）： 從「太宰府站」搭乘西鐵太宰府線至「西鐵二日市站」，再轉乘西鐵天神大牟田線前往「西鐵福岡（天神）站」。\n第二段（地鐵）： 到達「天神站」後，步行轉乘福岡市營地下鐵空港線，搭乘往「福岡機場」方向的列車，約 5 分鐘即可抵達「博多站」。", location: "天神站", links: [{ name: "回程", url: "https://maps.app.goo.gl/jEJ1v1LGPagm6Yji8" }] }
+                    ]
+                },
+                {
+                    dayNum: 8,
+                    date: "2026-08-22",
+                    weekDay: "星期六",
+                    title: "博多最後採買 & 滿載而歸返回香港",
+                    summary: "博多車站最後補貨與採買伴手禮，下午前往福岡機場搭乘航班返港",
+                    hotel: "溫馨的家",
+                    notes: ["酒店 Check-out", "15:00 抵達福岡機場國際線航廈", "18:00 航班 UO639 起飛"],
+                    events: [
+                        { time: "10:00 - 14:00", title: "博多車站最後採買", type: "spot", desc: "購買九州伴手禮（明太子、博多通饅頭、長崎蛋糕等）。", location: "博多車站", links: [] },
+                        { time: "14:45 - 15:00", title: "由天神離開", type: "train", desc: "地鐵： 於「天神站」搭乘福岡市營地下鐵「空港線」（往福岡機場方向）。\n抵達： 直接搭乘至終點站「福岡機場站」，車程約 11 分鐘，加上步行時間，總行程約 15 分鐘即可抵達。", location: "機場", links: [{ name: "路線", url: "https://maps.app.goo.gl/raDnADmRUVRmjZka6" }] },
+                        { time: "18:00 - 20:40", title: "福岡 ➔ 香港 (航班 UO639)", type: "flight", desc: "搭乘 HK Express UO639 返抵香港國際機場，結束精彩旅程！", location: "Fukuoka Airport", links: [] }
+                    ]
+                }
+            ]
+        };
+
+        window.onload = function() {
+            initCountdown();
+            initJapanClock();
+            applyTheme();
+            applyFontSize();
+            applyFontFamily();
+            renderMacroView();
+            renderDailyDayTabs();
+            renderDailyView(selectedDayNum);
+            
+            fetchCurrentWeather();
+            fetchWeatherForecast();
+            if (weatherRefreshTimer) clearInterval(weatherRefreshTimer);
+            weatherRefreshTimer = setInterval(() => {
+                fetchCurrentWeather();
+                fetchWeatherForecast();
+            }, 65 * 60 * 1000);
+
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                if (currentTheme === 'auto') {
+                    applyTheme();
+                }
+            });
+        };
+
+        async function fetchCurrentWeather() {
+            const apiKey = "69356be8d5c6774fab03a3cb1d0c676a";
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=Fukuoka&appid=${apiKey}&units=metric&lang=zh_tw`;
+            
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+                
+                const temp = Math.round(data.main.temp);
+                const desc = data.weather[0].description;
+                const iconCode = data.weather[0].icon;
+
+                const tempEl = document.getElementById('current-temp');
+                const descEl = document.getElementById('current-desc');
+                const iconEl = document.getElementById('current-weather-icon');
+
+                if (tempEl) tempEl.innerText = `${temp}°C`;
+                if (descEl) descEl.innerText = desc;
+                
+                if (iconEl) {
+                    let iconClass = "fa-sun text-amber-300";
+                    if (iconCode.includes('02') || iconCode.includes('03')) iconClass = "fa-cloud-sun text-sky-200";
+                    else if (iconCode.includes('04')) iconClass = "fa-cloud text-slate-300";
+                    else if (iconCode.includes('09') || iconCode.includes('10')) iconClass = "fa-cloud-rain text-sky-400";
+                    else if (iconCode.includes('11')) iconClass = "fa-bolt text-amber-400";
+                    iconEl.innerHTML = `<i class="fa-solid ${iconClass}"></i>`;
+                }
+            } catch (err) {
+                console.error("獲取實時天氣失敗:", err);
+                const descEl = document.getElementById('current-desc');
+                if (descEl) descEl.innerText = "實時天氣暫不可用";
+            }
+        }
+
+        async function fetchWeatherForecast() {
+            const apiKey = "69356be8d5c6774fab03a3cb1d0c676a";
+            const url = `https://api.openweathermap.org/data/2.5/forecast?q=Fukuoka&appid=${apiKey}&units=metric&lang=zh_tw`;
+            
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+                
+                const dailyMap = {};
+                data.list.forEach(item => {
+                    const dateStr = item.dt_txt.split(' ')[0];
+                    if (!dailyMap[dateStr]) {
+                        dailyMap[dateStr] = {
+                            temps: [],
+                            weatherList: [],
+                            iconList: []
+                        };
+                    }
+                    dailyMap[dateStr].temps.push(item.main.temp);
+                    dailyMap[dateStr].weatherList.push(item.weather[0].description);
+                    dailyMap[dateStr].iconList.push(item.weather[0].icon);
+                });
+
+                tripData.days.forEach(day => {
+                    const dStr = day.date;
+                    if (dailyMap[dStr]) {
+                        const info = dailyMap[dStr];
+                        const maxT = Math.round(Math.max(...info.temps));
+                        const minT = Math.round(Math.min(...info.temps));
+                        const midIcon = info.iconList[Math.floor(info.iconList.length / 2)] || "01d";
+                        const desc = info.weatherList[Math.floor(info.weatherList.length / 2)] || "晴朗";
+                        weatherForecastData[dStr] = { maxT, minT, desc, icon: midIcon };
+                    }
+                });
+
+                renderWeatherBanner();
+                renderMacroView();
+            } catch (err) {
+                console.error("獲取天氣預報失敗:", err);
+                const statusEl = document.getElementById('weather-update-status');
+                if (statusEl) statusEl.innerText = "天氣預報載入失敗 (使用離線預設)";
+                renderOfflineWeatherBanner();
+            }
+        }
+
+        function renderWeatherBanner() {
+            const container = document.getElementById('weather-cards-scroll');
+            const statusEl = document.getElementById('weather-update-status');
+            if (!container) return;
+
+            if (statusEl) statusEl.innerText = "已實時更新";
+
+            container.innerHTML = tripData.days.map(day => {
+                const w = weatherForecastData[day.date] || { maxT: 33, minT: 26, desc: "晴時多雲", icon: "01d" };
+                let iconClass = "fa-sun text-amber-300";
+                if (w.icon.includes('02') || w.icon.includes('03')) iconClass = "fa-cloud-sun text-sky-200";
+                else if (w.icon.includes('04')) iconClass = "fa-cloud text-slate-300";
+                else if (w.icon.includes('09') || w.icon.includes('10')) iconClass = "fa-cloud-rain text-sky-400";
+                else if (w.icon.includes('11')) iconClass = "fa-bolt text-amber-400";
+
+                return `
+                    <div class="shrink-0 bg-white/10 backdrop-blur-md px-3 py-2.5 rounded-xl border border-white/15 flex flex-col items-center min-w-[95px] text-center">
+                        <span class="text-[10px] text-sky-200 font-bold">Day ${day.dayNum} (${day.date.slice(5)})</span>
+                        <div class="my-1 flex items-center gap-1.5">
+                            <i class="fa-solid ${iconClass} text-base"></i>
+                            <span class="text-xs font-extrabold text-white">${w.maxT}°/${w.minT}°</span>
+                        </div>
+                        <span class="text-[10px] text-slate-200 truncate max-w-[85px]">${w.desc}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderOfflineWeatherBanner() {
+            const container = document.getElementById('weather-cards-scroll');
+            if (!container) return;
+            container.innerHTML = tripData.days.map(day => `
+                <div class="shrink-0 bg-white/10 backdrop-blur-md px-3 py-2.5 rounded-xl border border-white/15 flex flex-col items-center min-w-[95px] text-center">
+                    <span class="text-[10px] text-sky-200 font-bold">Day ${day.dayNum} (${day.date.slice(5)})</span>
+                    <div class="my-1 flex items-center gap-1.5">
+                        <i class="fa-solid fa-sun text-amber-300 text-base"></i>
+                        <span class="text-xs font-extrabold text-white">32°/26°</span>
+                    </div>
+                    <span class="text-[10px] text-slate-200">炎熱晴朗</span>
+                </div>
+            `).join('');
+        }
+
+        function setFontFamily(family) {
+            currentFontFamily = family;
+            localStorage.setItem('kyushu_fontfamily', family);
+            applyFontFamily();
+        }
+
+        function applyFontFamily() {
+            let fontStack = '"Plus Jakarta Sans", "Noto Sans TC", sans-serif';
+            switch(currentFontFamily) {
+                case 'serif': fontStack = '"Noto Serif TC", serif'; break;
+                case 'round': fontStack = '"Zen Maru Gothic", "Noto Sans TC", sans-serif'; break;
+                case 'kai': fontStack = '"LXGW WenKai TC", "Noto Sans TC", cursive, sans-serif'; break;
+                case 'sans': default: fontStack = '"Plus Jakarta Sans", "Noto Sans TC", sans-serif'; break;
+            }
+            document.body.style.fontFamily = fontStack;
+
+            ['sans', 'serif', 'round', 'kai'].forEach(f => {
+                const btn = document.getElementById(`fontfamily-btn-${f}`);
+                if (btn) {
+                    if (f === currentFontFamily) {
+                        btn.className = "py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-0.5 bg-brand-600 text-white shadow-sm";
+                    } else {
+                        btn.className = "py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-0.5 bg-white/80 text-slate-600 hover:bg-white";
+                    }
+                }
+            });
+        }
+
+        function initJapanClock() {
+            updateJapanClock();
+            setInterval(updateJapanClock, 1000);
+        }
+
+        function updateJapanClock() {
+            const now = new Date();
+            const options = { timeZone: 'Asia/Tokyo', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const jstString = new Intl.DateTimeFormat('zh-TW', options).format(now);
+            const clockEl = document.getElementById('japan-clock');
+            if (clockEl) clockEl.innerText = jstString;
+        }
+
+        function setTheme(theme) {
+            currentTheme = theme;
+            localStorage.setItem('kyushu_theme', theme);
+            applyTheme();
+        }
+
+        function applyTheme() {
+            const isDark = currentTheme === 'dark' || (currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+
+            ['auto', 'light', 'dark'].forEach(t => {
+                const btn = document.getElementById(`theme-btn-${t}`);
+                if (btn) {
+                    if (t === currentTheme) {
+                        btn.className = "py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-1 bg-brand-600 text-white shadow-sm";
+                    } else {
+                        btn.className = "py-2 px-3 rounded-xl font-bold text-xs transition flex flex-col items-center gap-1 bg-white/80 text-slate-600 hover:bg-white";
+                    }
+                }
+            });
+        }
+
+        function setFontSize(size) {
+            currentFontSize = size;
+            localStorage.setItem('kyushu_fontsize', size);
+            applyFontSize();
+        }
+
+        function applyFontSize() {
+            let scale = '100%';
+            switch(currentFontSize) {
+                case 'sm': scale = '87.5%'; break;
+                case 'lg': scale = '112.5%'; break;
+                case 'xl': scale = '125%'; break;
+                case 'base': default: scale = '100%'; break;
+            }
+            document.documentElement.style.fontSize = scale;
+
+            ['sm', 'base', 'lg', 'xl'].forEach(s => {
+                const btn = document.getElementById(`fontsize-btn-${s}`);
+                if (btn) {
+                    if (s === currentFontSize) {
+                        btn.className = "py-2 rounded-xl font-bold transition text-center bg-brand-600 text-white shadow-sm";
+                    } else {
+                        btn.className = "py-2 rounded-xl font-bold transition text-center bg-white/80 text-slate-600 hover:bg-white";
+                    }
+                }
+            });
+        }
+
+        async function loadLocal9Ics(isAuto = false) {
+            const btn = document.getElementById('btn-update-ics');
+            if (btn && !isAuto) {
+                btn.disabled = true;
+                btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> 正在載入 9.ics...`;
+            }
+
+            try {
+                const response = await fetch('./9.ics', { cache: 'no-cache' });
+                if (!response.ok) throw new Error(`無法取得 9.ics (${response.status})`);
+                const icsText = await response.text();
+                processAndApplyIcsText(icsText, isAuto ? "9.ics (自動同步)" : "9.ics 檔案", isAuto);
+
+                const nowStr = new Date().toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+                lastUpdatedTime = nowStr;
+                updateLastUpdateBadge(nowStr);
+
+                if (!isAuto) closeSettingsModal();
+            } catch (err) {
+                console.error("載入 9.ics 錯誤:", err);
+                if (!isAuto) showToast("無法載入 9.ics", `請確認目錄下含有 9.ics 檔案。\n(${err.message})`, "error");
+            } finally {
+                if (btn && !isAuto) {
+                    btn.disabled = false;
+                    btn.innerHTML = `<i class="fa-solid fa-arrows-rotate"></i> <span>即時手動更新行程</span>`;
+                }
+            }
+        }
+
+        function openIcsModal() { document.getElementById('ics-update-modal').classList.remove('hidden'); }
+        function closeIcsModal() { document.getElementById('ics-update-modal').classList.add('hidden'); }
+
+        function handleIcsFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) { processAndApplyIcsText(e.target.result, file.name); };
+            reader.readAsText(file);
+        }
+
+        function applyPastedIcsText() {
+            const text = document.getElementById('ics-paste-text').value;
+            if (!text || !text.trim()) {
+                showToast("未輸入內容", "請先貼上 .ics 文字內容。", "error");
+                return;
+            }
+            processAndApplyIcsText(text, "貼上內容");
+        }
+
+        function processAndApplyIcsText(icsText, sourceName, isAuto = false) {
+            try {
+                const parsedTrip = parseIcsContent(icsText);
+                if (parsedTrip && parsedTrip.days && parsedTrip.days.length > 0) {
+                    tripData.days = parsedTrip.days;
+                    if (parsedTrip.title) tripData.title = parsedTrip.title;
+
+                    selectedDayNum = 1;
+                    initCountdown();
+                    renderMacroView();
+                    renderDailyDayTabs();
+                    renderDailyView(selectedDayNum);
+
+                    const nowStr = new Date().toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' });
+                    updateLastUpdateBadge(nowStr);
+
+                    if (isAuto) {
+                        showToast("自動更新成功", `[${nowStr}] 已自動完成 9.ics 同步。`, "success");
+                    } else {
+                        showToast("更新成功！", `已成功載入 [${sourceName}] 行程資料。`, "success");
+                        closeIcsModal();
+                    }
+                } else {
+                    if (!isAuto) showToast("解析失敗", "格式不符合預期。", "error");
+                }
+            } catch (err) {
+                console.error("解析 ICS 失敗:", err);
+                if (!isAuto) showToast("解析錯誤", err.message || "發生錯誤", "error");
+            }
+        }
+
+        function parseIcsContent(icsText) {
+            const lines = icsText.split(/\r?\n/);
+            let currentEvent = null;
+            let events = [];
+
+            for (let line of lines) {
+                if (line.startsWith('BEGIN:VEVENT')) {
+                    currentEvent = {};
+                } else if (line.startsWith('END:VEVENT')) {
+                    if (currentEvent) events.push(currentEvent);
+                    currentEvent = null;
+                } else if (currentEvent) {
+                    if (line.startsWith('SUMMARY:')) currentEvent.title = line.substring(8);
+                    else if (line.startsWith('DESCRIPTION:')) currentEvent.desc = line.substring(12);
+                    else if (line.startsWith('DTSTART:')) currentEvent.start = line.substring(8);
+                }
+            }
+            return tripData;
+        }
+
+        function openSettingsModal() { document.getElementById('settings-modal').classList.remove('hidden'); }
+        function closeSettingsModal() { document.getElementById('settings-modal').classList.add('hidden'); }
+        function openSeatModal() { document.getElementById('seat-modal').classList.remove('hidden'); }
+        function closeSeatModal() { document.getElementById('seat-modal').classList.add('hidden'); }
+
+        function showToast(title, message, type = 'success') {
+            const toast = document.getElementById('toast-notification');
+            const toastIcon = document.getElementById('toast-icon');
+            const toastTitle = document.getElementById('toast-title');
+            const toastMsg = document.getElementById('toast-message');
+
+            if (!toast) return;
+            toastTitle.innerText = title;
+            toastMsg.innerText = message;
+
+            if (type === 'error') {
+                toastIcon.className = "w-8 h-8 rounded-xl bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold";
+                toastIcon.innerHTML = `<i class="fa-solid fa-circle-exclamation"></i>`;
+            } else {
+                toastIcon.className = "w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold";
+                toastIcon.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
+            }
+
+            toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+            }, 3500);
+        }
+
+        function initCountdown() {
+            const startDate = new Date('2026-08-15T00:00:00+09:00');
+            const now = new Date();
+            const diffTime = startDate - now;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            const countdownEl = document.getElementById('countdown-timer');
+            
+            if (countdownEl) {
+                if (diffDays > 0) countdownEl.innerText = `${diffDays} 天`;
+                else if (diffDays === 0) countdownEl.innerText = "今天出發！";
+                else if (diffDays > -8 && diffDays <= 0) countdownEl.innerText = `旅程中 D${Math.abs(diffDays) + 1}`;
+                else countdownEl.innerText = "旅程圓滿";
+            }
+        }
+
+        function switchView(view) {
+            currentView = view;
+            const viewMacro = document.getElementById('view-macro');
+            const viewDaily = document.getElementById('view-daily');
+            const btnMacro = document.getElementById('btn-macro');
+            const btnDaily = document.getElementById('btn-daily');
+            const mobileMacro = document.getElementById('mobile-nav-macro');
+            const mobileDaily = document.getElementById('mobile-nav-daily');
+
+            if (view === 'macro') {
+                viewMacro.classList.remove('hidden');
+                viewDaily.classList.add('hidden');
+                if (btnMacro) btnMacro.className = "px-3.5 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 bg-white text-brand-600 shadow-sm font-bold";
+                if (btnDaily) btnDaily.className = "px-3.5 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 text-slate-600 hover:text-slate-900";
+                if (mobileMacro) mobileMacro.className = "flex flex-col items-center gap-1 px-3 py-1 text-brand-600 transition active:scale-95 font-bold";
+                if (mobileDaily) mobileDaily.className = "flex flex-col items-center gap-1 px-3 py-1 text-slate-500 hover:text-slate-900 transition active:scale-95 font-medium";
+            } else {
+                viewMacro.classList.add('hidden');
+                viewDaily.classList.remove('hidden');
+                if (btnDaily) btnDaily.className = "px-3.5 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 bg-white text-brand-600 shadow-sm font-bold";
+                if (btnMacro) btnMacro.className = "px-3.5 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 text-slate-600 hover:text-slate-900";
+                if (mobileDaily) mobileDaily.className = "flex flex-col items-center gap-1 px-3 py-1 text-brand-600 transition active:scale-95 font-bold";
+                if (mobileMacro) mobileMacro.className = "flex flex-col items-center gap-1 px-3 py-1 text-slate-500 hover:text-slate-900 transition active:scale-95 font-medium";
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function renderMacroView() {
+            const grid = document.getElementById('macro-grid');
+            if (!grid) return;
+
+            grid.innerHTML = tripData.days.map(day => {
+                const w = weatherForecastData[day.date];
+                return `
+                    <div class="bg-white rounded-2xl p-5 border border-slate-200/80 custom-shadow hover:border-brand-500/50 transition-all cursor-pointer flex flex-col justify-between group" onclick="selectDayFromMacro(${day.dayNum})">
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between border-b pb-2 border-slate-100">
+                                <span class="px-2.5 py-1 rounded-xl bg-brand-50 text-brand-600 font-extrabold text-xs">Day ${day.dayNum}</span>
+                                <div class="flex items-center gap-2">
+                                    ${w ? `<span class="text-[11px] font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-md flex items-center gap-1"><i class="fa-solid fa-temperature-high text-xs"></i> ${w.maxT}°/${w.minT}°</span>` : ''}
+                                    <span class="text-xs font-semibold text-slate-400">${day.date.slice(5)} (${day.weekDay})</span>
+                                </div>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base group-hover:text-brand-600 transition">${day.title}</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed line-clamp-3">${day.summary}</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+                            <span class="text-slate-500 flex items-center gap-1 truncate max-w-[170px]">
+                                <i class="fa-solid fa-hotel text-rose-500"></i> ${day.hotel}
+                            </span>
+                            <span class="text-brand-600 font-bold group-hover:translate-x-0.5 transition flex items-center gap-1">
+                                詳情 <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function filterMacro() {
+            const keyword = document.getElementById('macro-search').value.toLowerCase().trim();
+            const cards = document.querySelectorAll('#macro-grid > div');
+            cards.forEach((card, index) => {
+                const day = tripData.days[index];
+                const content = `${day.title} ${day.summary} ${day.hotel} ${day.events.map(e => e.title + ' ' + e.desc).join(' ')}`.toLowerCase();
+                if (content.includes(keyword)) card.classList.remove('hidden');
+                else card.classList.add('hidden');
+            });
+        }
+
+        function selectDayFromMacro(dayNum) {
+            selectedDayNum = dayNum;
+            switchView('daily');
+            renderDailyDayTabs();
+            renderDailyView(dayNum);
+        }
+
+        function renderDailyDayTabs() {
+            const tabsContainer = document.getElementById('daily-day-tabs');
+            if (!tabsContainer) return;
+
+            tabsContainer.innerHTML = tripData.days.map(day => {
+                const isSelected = day.dayNum === selectedDayNum;
+                return `
+                    <button onclick="switchDailyDay(${day.dayNum})" class="snap-start shrink-0 px-4 py-2.5 rounded-xl font-bold text-xs transition flex flex-col items-center min-w-[90px] ${
+                        isSelected ? 'bg-brand-600 text-white shadow-md scale-100' : 'bg-white/80 text-slate-600 hover:bg-white hover:text-slate-900 border border-slate-200/60'
+                    }">
+                        <span class="text-[10px] opacity-80 uppercase tracking-wider">Day ${day.dayNum}</span>
+                        <span class="text-xs font-bold mt-0.5">${day.date.slice(5)} ${day.weekDay.slice(2)}</span>
+                    </button>
+                `;
+            }).join('');
+        }
+
+        function switchDailyDay(dayNum) {
+            selectedDayNum = dayNum;
+            renderDailyDayTabs();
+            renderDailyView(dayNum);
+        }
+
+        function setCategoryFilter(category) {
+            activeCategoryFilter = category;
+            document.querySelectorAll('#category-filters .cat-filter-btn').forEach(btn => {
+                if (btn.getAttribute('onclick').includes(`'${category}'`)) {
+                    btn.className = "cat-filter-btn active px-3 py-1.5 rounded-lg bg-brand-500 text-white font-bold transition shadow-sm";
+                } else {
+                    btn.className = "cat-filter-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition";
+                }
+            });
+            renderDailyView(selectedDayNum);
+        }
+
+        function renderDailyView(dayNum) {
+            const day = tripData.days.find(d => d.dayNum === dayNum) || tripData.days[0];
+            const headerCard = document.getElementById('day-header-card');
+            const w = weatherForecastData[day.date];
+
+            if (headerCard) {
+                headerCard.innerHTML = `
+                    <div class="relative z-10 space-y-3">
+                        <div class="flex items-center justify-between flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-white/25 backdrop-blur-md rounded-full text-xs font-bold tracking-wide">
+                                DAY ${day.dayNum} • ${day.date} (${day.weekDay})
+                            </span>
+                            <div class="flex items-center gap-2">
+                                ${w ? `<span class="px-3 py-1 bg-amber-400/20 text-amber-200 border border-amber-300/30 rounded-full text-xs font-bold flex items-center gap-1.5"><i class="fa-solid fa-cloud-sun"></i> ${w.desc} ${w.maxT}°C / ${w.minT}°C</span>` : ''}
+                                <span class="text-xs font-semibold text-amber-300 flex items-center gap-1.5">
+                                    <i class="fa-solid fa-hotel"></i> ${day.hotel}
+                                </span>
+                            </div>
+                        </div>
+                        <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight">${day.title}</h2>
+                        <p class="text-xs sm:text-sm text-slate-100/90 leading-relaxed">${day.summary}</p>
+                        
+                        ${day.notes && day.notes.length > 0 ? `
+                            <div class="pt-2 border-t border-white/10 mt-3">
+                                <div class="text-xs font-bold text-amber-200 mb-1 flex items-center gap-1.5">
+                                    <i class="fa-solid fa-list-check"></i> 今日重點提醒 & 備忘：
+                                </div>
+                                <div class="flex flex-wrap gap-2">
+                                    ${day.notes.map((note, idx) => {
+                                        const noteKey = `kyushu_task_d${day.dayNum}_${idx}`;
+                                        const isChecked = localStorage.getItem(noteKey) === 'true';
+                                        return `
+                                            <label class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-white/15 hover:bg-white/25 text-xs text-white backdrop-blur-sm cursor-pointer border border-white/10 transition">
+                                                <input type="checkbox" onchange="toggleTaskCheck(${day.dayNum}, ${idx}, this.checked)" ${isChecked ? 'checked' : ''} class="rounded border-none text-brand-600 focus:ring-0">
+                                                <span class="${isChecked ? 'line-through opacity-60' : ''}">${note}</span>
+                                            </label>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }
+
+            const timelineContainer = document.getElementById('daily-timeline');
+            if (!timelineContainer) return;
+
+            const filteredEvents = activeCategoryFilter === 'all' 
+                ? day.events 
+                : day.events.filter(e => e.type === activeCategoryFilter);
+
+            if (filteredEvents.length === 0) {
+                timelineContainer.innerHTML = `
+                    <div class="p-8 text-center bg-white rounded-2xl border border-slate-200/80 text-slate-400 text-sm">
+                        <i class="fa-solid fa-folder-open text-2xl mb-2"></i>
+                        <p>此類別今日無行程安排</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const typeIcons = {
+                flight: { icon: "fa-plane", bg: "bg-sky-500", text: "text-sky-600" },
+                train: { icon: "fa-train", bg: "bg-amber-500", text: "text-amber-600" },
+                bus: { icon: "fa-bus", bg: "bg-purple-500", text: "text-purple-600" },
+                spot: { icon: "fa-location-dot", bg: "bg-emerald-500", text: "text-emerald-600" },
+                hotel: { icon: "fa-hotel", bg: "bg-rose-500", text: "text-rose-600" },
+                restaurant: { icon: "fa-utensils", bg: "bg-amber-500", text: "text-amber-600" }
+            };
+
+            timelineContainer.innerHTML = filteredEvents.map((evt) => {
+                const style = typeIcons[evt.type] || typeIcons.spot;
+                return `
+                    <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200/80 custom-shadow flex flex-col sm:flex-row sm:items-start gap-4 hover:border-slate-300 transition">
+                        <div class="flex items-center gap-3 shrink-0 sm:w-36">
+                            <div class="w-10 h-10 rounded-xl ${style.bg} text-white flex items-center justify-center font-bold text-base shadow-sm shrink-0">
+                                <i class="fa-solid ${style.icon}"></i>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="font-mono font-bold text-slate-900 text-sm sm:text-base">${evt.time}</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider ${style.text}">${evt.type}</span>
+                            </div>
+                        </div>
+                        <div class="space-y-1.5 flex-1 border-t sm:border-t-0 sm:border-l border-slate-100 sm:pl-4 pt-3 sm:pt-0">
+                            <h4 class="font-bold text-slate-900 text-base flex flex-wrap items-center justify-between gap-2">
+                                <span>${evt.title}</span>
+                                ${evt.location ? `
+                                    <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md flex items-center gap-1">
+                                        <i class="fa-solid fa-map-pin text-rose-500"></i> ${evt.location}
+                                    </span>
+                                ` : ''}
+                            </h4>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed whitespace-pre-line">${evt.desc}</p>
+                            ${evt.links && evt.links.length > 0 ? `
+                                <div class="flex flex-wrap gap-2 pt-2">
+                                    ${evt.links.map(link => `
+                                        <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-600 font-bold text-xs transition border border-slate-200">
+                                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i> ${link.name}
+                                        </a>
+                                    `).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function toggleTaskCheck(dayNum, idx, isChecked) {
+            const noteKey = `kyushu_task_d${dayNum}_${idx}`;
+            localStorage.setItem(noteKey, isChecked);
+            renderDailyView(dayNum);
+        }
+    </script>
+</body>
+</html>
